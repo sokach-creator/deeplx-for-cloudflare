@@ -1,5 +1,15 @@
+#:schema node_modules/wrangler/config-schema.json
 name = "deeplx"
-compatibility_date = "2023-01-01"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+compatibility_flags = ["nodejs_compat"]
+
+# 在 *.workers.dev 子域上启用（如绑定了自定义域名可改为 false）
+workers_dev = true
+
+# 开启 Workers Logs，便于排查问题
+[observability]
+enabled = true
 
 # [vars]
 # MY_VARIABLE = "production_value"
