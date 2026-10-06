@@ -1,6 +1,6 @@
 name = "deeplx"
 
-# main = "src/index.js"
+#main = "src/index.js"
 
 # 最新兼容日期（截至 2026-10-06 官方兼容标志表中的最新日期；
 # 自 2026-08-04 起 nodejs_compat 已默认启用，无需再手动添加该 flag）
